@@ -56,7 +56,7 @@ The preprocessed datasets are available on Zenodo.
 
 The challenge places a significant emphasis on data collection and utilization, which is a crucial component of the competition. The organizers do not prescribe a specific training dataset for each participant. Instead, participants are free to use any data for training, as long as it meets the following conditions:
 
-- All training data must be publicly accessible, or in 20-Hour Non-speech Dataset from DataoceanAI. 
+- All training data must be publicly accessible, or in [20-Hour Non-speech Dataset from DataoceanAI](King_NonSpeech-Dataset_en_20h.md). 
 - Data in Task 1 and Task 2 must be excluded from training.
 
 ## Evaluation and Ranking
