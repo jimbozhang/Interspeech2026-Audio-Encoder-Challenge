@@ -39,7 +39,7 @@ The preprocessed datasets are available on Zenodo. The number of labels # for ea
 |            | NSynth-Instruments       | Instruments Classification    | Acc        |    11 |
 |            | Free Music Archive Small | Music genre classification    | Acc        |     8 |
 
-### Task 2: Open-ended tasks
+### Task 2: Understanding tasks
 
 The preprocessed datasets are available on Zenodo. 
 
@@ -56,7 +56,6 @@ The preprocessed datasets are available on Zenodo.
 The challenge places a significant emphasis on data collection and utilization, which is a crucial component of the competition. The organizers do not prescribe a specific training dataset for each participant. Instead, participants are free to use any data for training, as long as it meets the following conditions:
 
 - All training data must be publicly accessible, or in [20-Hour Non-speech Dataset from DataoceanAI](King_NonSpeech-Dataset_en_20h.md). 
-- Data in Task 1 and Task 2 must be excluded from training. 
 
 ## Evaluation and Ranking
 
@@ -68,13 +67,13 @@ $$
 
 where $\hat{M_{i}}$ is the normalized metric, and $M_{i}^{\min}$ and $M_{i}^{\max}$ are the worst and best possible values of $M_i$, respectively.
 
-The final score $S$ is calculated as:
+The final score $S$ is calculated as average across ass normalized scores:
 
 $$
-S = \frac{\sum_{i=1}^{N_{\text{task}}} n_i \hat{M}_i}{\sum_{i=1}^{N_{\text{task}}} n_i}
+S = \sum_{i=1}^{N_{\text{task}}} \hat{M}_i
 $$
 
-where $N_{\text{task}}$ is the total number of tasks, $n_i$ is a task-specific weight determined by the committee. Weights are set to prioritize open-ended generation tasks due to their higher difficulty.
+where $N_{\text{task}}$ is the total number of tasks.
 
 ## How to Participate
 
