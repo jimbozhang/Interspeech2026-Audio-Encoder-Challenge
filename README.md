@@ -61,7 +61,8 @@ The challenge places a significant emphasis on data collection and utilization, 
 
 Performance is evaluated separately for Task 1 and Task 2.
 
-For each task, its raw score is converted into a final normalized value between 0 and 1, where 0 corresponds to the worst possible outcome and 1 to the best possible outcome for that specific task.
+For each task, its raw score is converted into a normalized score between 0 and 1 using a linear mapping method.
+This process proportionally scales the raw score so that 0 corresponds to the worst possible outcome and 1 to the best possible outcome for that specific task.
 
 The final result for each task is the simple average of the normalized scores. The two scores are calculated and reported individually, without being combined into an overall average.
 
