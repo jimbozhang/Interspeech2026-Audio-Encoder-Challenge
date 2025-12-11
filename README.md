@@ -14,9 +14,9 @@ Training is done by jointly training on all datasets using a predefined mixture,
 
 Participants are welcome to independently test and refine their models, but the final rankings will be determined based on evaluations performed by the organizers.
 
-## Task Setup
+## Track Setup
 
-### Task 1: Classification tasks
+### Track A: Classification tasks
 
 The preprocessed datasets are available on Zenodo. The number of labels # for each dataset is displayed.
 
@@ -39,7 +39,7 @@ The preprocessed datasets are available on Zenodo. The number of labels # for ea
 |            | NSynth-Instruments       | Instruments Classification    | Acc        |    11 |
 |            | Free Music Archive Small | Music genre classification    | Acc        |     8 |
 
-### Task 2: Understanding tasks
+### Track B: Understanding tasks
 
 The preprocessed datasets are available on Zenodo. 
 
@@ -59,12 +59,12 @@ The challenge places a significant emphasis on data collection and utilization, 
 
 ## Evaluation and Ranking
 
-Performance is evaluated separately for Task 1 and Task 2.
+Performance is evaluated separately for Track A and Track B.
 
-For each task, its raw score is converted into a normalized score between 0 and 1 using a linear mapping method.
+For each track, its raw score is converted into a normalized score between 0 and 1 using a linear mapping method.
 This process proportionally scales the raw score so that 0 corresponds to the worst possible outcome and 1 to the best possible outcome for that specific task.
 
-The final result for each task is the simple average of the normalized scores. The two scores are calculated and reported individually, without being combined into an overall average.
+The final result for each track is the simple average of the normalized scores. The two scores are calculated and reported individually, without being combined into an overall average.
 
 ## How to Participate
 
