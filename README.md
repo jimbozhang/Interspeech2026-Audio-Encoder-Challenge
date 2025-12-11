@@ -99,8 +99,3 @@ Participants are also required to submit a technical report along with their sub
 - **February 20, 2026**: Final Ranking Announced
 
 - **February 25 11:59 PM AoE, 2026**: Paper Submission Deadline
-
-## More Details
-
-The more detailed description of the challenge can be found in **The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models** [paper](The_Interspeech_2026_Audio_Encoder_Capability_Challenge_for_Large_Audio_Language_Models.pdf).
-
