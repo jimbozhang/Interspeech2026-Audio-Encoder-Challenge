@@ -78,7 +78,7 @@ Further questions, please send Email to: 2026interspeech-aecc@dataoceanai.com
 
 Participants are required to submit a pre-trained model encapsulated within the specified API. The model should accept a single-channel audio signal, represented as a PyTorch tensor with shape [B, T], and an optional mask of shape [B,T] where B denotes the batch size and T represents the number of samples in the time domain and ones represent keep in the mask, while zero represent discard. The model should output a frame-level prediction of shape [B, T′,D], where T′ can be different from the input T and D is the embedding dimension defined by the participant as well as the optional mask of shape [B, T'].
 
-While there are no strict limitations on model size, submitted models must be able to be run successfully on a GTX 4090. By default the challenge commitee trains the models for at most 200000 iterations on a single GTX4090.
+While there are no strict limitations on model size, submitted models must be able to be run successfully on a card with 24G RAM. 
 
 The submission steps are as follows:
 
