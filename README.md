@@ -90,6 +90,8 @@ The submission steps are as follows:
 
 Participants are also required to submit a technical report along with their submission.
 
+Note: Each team may submit only one model, and each individual may belong to only one team.
+
 ## Important Dates
 
 - **December 15, 2025**: Challenge announcement
