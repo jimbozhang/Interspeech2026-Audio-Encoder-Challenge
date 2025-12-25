@@ -79,7 +79,9 @@ Further questions, please send Email to: 2026interspeech-aecc@dataoceanai.com
 
 Participants are required to submit a pre-trained model encapsulated within the specified API. The model should accept a single-channel audio signal, represented as a PyTorch tensor with shape [B, T], and an optional mask of shape [B,T] where B denotes the batch size and T represents the number of samples in the time domain and ones represent keep in the mask, while zero represent discard. The model should output a frame-level prediction of shape [B, T′,D], where T′ can be different from the input T and D is the embedding dimension defined by the participant as well as the optional mask of shape [B, T'].
 
-While there are no strict limitations on model size, submitted models must be able to be run successfully on a card with 24G RAM. 
+While there are no strict limitations on model size, submitted models must be able to be run successfully on a card with 24G RAM.
+
+Each team may submit only one model, and each individual may belong to only one team.
 
 The submission steps are as follows:
 
@@ -89,9 +91,7 @@ The submission steps are as follows:
 
 3. Before the submission deadline, email the organizers a ZIP file containing the complete repository. Additionally, please attach a technical report paper (PDF format) not exceeding 6 pages describing your implementation. Pre-trained model weights can either be included in the ZIP file or downloaded automatically from external sources (e.g., Hugging Face) during runtime. If choosing the latter approach, please implement the automatic downloading mechanism in your encoder implementation.
 
-Participants are also required to submit a technical report along with their submission.
-
-**Note: Each team may submit only one model, and each individual may belong to only one team.**
+Participants are also required to submit a technical report along with their submission. The technical report should clearly document the training data and their proportions, which is required for the submission to be eligible for the ranking.
 
 ## Important Dates
 
