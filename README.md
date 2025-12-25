@@ -18,7 +18,7 @@ Participants are welcome to independently test and refine their models, but the 
 
 ### Track A: Classification tasks
 
-The preprocessed datasets are available on Zenodo. The number of labels # for each dataset is displayed.
+The preprocessed datasets are available on Hugging Face. The number of labels # for each dataset is displayed.
 
 | **Domain** | **Dataset**              | **Task Type**                 | **Metric** | **#** |
 | ---------- | ------------------------ | ----------------------------- | ---------- | ----: |
@@ -41,7 +41,7 @@ The preprocessed datasets are available on Zenodo. The number of labels # for ea
 
 ### Track B: Understanding tasks
 
-The preprocessed datasets are available on Zenodo. 
+The preprocessed datasets are available on Hugging Face. 
 
 | **Dataset**                | **Task Type**      | **Metric** |
 | -------------------------- | ------------------ | ---------- |
