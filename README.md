@@ -67,6 +67,8 @@ This process proportionally scales the raw score so that 0 corresponds to the wo
 
 The final result for each track is the simple average of the normalized scores. The two scores are calculated and reported individually, without being combined into an overall average.
 
+**Note that we strongly encourage participants to focus on developing general-purpose audio representations rather than over-optimizing for XARES-LLM, as the final ranking will also incorporate results from hidden test datasets.**
+
 ## How to Participate
 
 ### Registration
